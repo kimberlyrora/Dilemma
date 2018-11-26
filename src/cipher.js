@@ -1,38 +1,27 @@
 window.cipher = {
-  encode:
-  const buttonCifrar =document.getElementById("cifrar");
-function ojalaFuncione(hello,off){
-  let vacio="";
- for (let i = 0; i < hello.length; i ++) {
-    let numerAscii = hello.charCodeAt(i);
-    let cifrado=String.fromCharCode((numerAscii-65+off)%26+65);
-vacio = vacio + cifrado
+encode: encode_,
+decode: decode_,
 }
-  let ayay=document.getElementById("cifrar");
-  let gh = document.getElementById("traduccion").value= vacio;
-}
-buttonCifrar.addEventListener("click", function() {
-  let inputTexto =document.getElementById("original").value.toUpperCase();
-  let off =document.getElementById("offset").value;
-    ojalaFuncione(inputTexto,off);
-})
-};
-window.cipher ={
-  decode:
-  const buttonDescifrar=document.getElementById("descifrar");
-function ayuda(adio, off){
-  let vacioo ="";
+function encode_(off, adio){
+  let cifrado=[];
+  let numerAscii=[];
+  let cifrado_cadena='';
  for(let i = 0; i < adio.length; i++) {
-   let numerAscii=adio.charCodeAt(i);
-   let cifrado=String.fromCharCode((numerAscii+65-off)%26+65);
-vacioo = vacioo + cifrado
+    numerAscii.push(adio.charCodeAt(i));
+    cifrado.push(String.fromCharCode((numerAscii[i]-65+off)%26+65));
+ }
+ cifrado_cadena=cifrado.join('');
+return cifrado_cadena;
 }
-  let desci=document.getElementById("descifrar");
-  let getYou = document.getElementById("traduccion").value= vacioo;
+
+ function decode_(off, adio) {
+  let descifrado =[];
+  let numerAsciii=[];
+  let descifrado_cadena='';
+ for(let i = 0; i < adio.length; i++) {
+   numerAsciii.push(adio.charCodeAt(i));
+   descifrado.push(String.fromCharCode((numerAsciii[i]+65-off)%26+65));
 }
-buttonDescifrar.addEventListener("click", function() {
-  let inputTexto2 =document.getElementById("original").value.toUpperCase();
-  let off =document.getElementById("offset").value;
-    ayuda(inputTexto2,off);
-})
-};
+descifrado_cadena=descifrado.join('');
+return descifrado_cadena;
+  }
