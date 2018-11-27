@@ -1,0 +1,53 @@
+form {
+     text-align:center;
+     }
+#divContenedor {
+    
+    margin-top: 220px;
+    position: relative;
+    height:300px;
+    width: 400px;
+    background-color: rgb(202, 230, 247);
+}
+input[type=number] 
+{
+  margin-top: 20px;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+  border-width: 5px;
+  border-radius: 10px
+ outline: none;
+}
+input[type=text] 
+{
+    width: 300px;
+    height:50px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    border-width: 3px;
+    border-radius: 10px
+}
+input[type=button] 
+{ 
+    width: 100px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-width: 4px;
+    border-radius: 10px
+    
+}
+input[type=reset] 
+{
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border-width: 4px;
+    border-radius: 10px
+
+}

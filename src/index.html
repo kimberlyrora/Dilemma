@@ -6,22 +6,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <form id="formulario">
-      <div>
-        <input type = "number" name= "offset" id="offset">
-      </div>
-      <div>
-        <input type = "text" name= "caja1" id="original">
-      </div>
-      <input type ="button" name= "button1" value ="Cifrar" id="cifrar"/>
-      <input type ="button" name= "button2" value ="Descifrar" id="descifrar"/>
-      <div>
+    <div id="divContenedor">
+     <div id="root"></div>
+      <form id="formulario">
+       <div>
+        <input type = "number" name= "offset" id="offset" placeholder="Ingresa el offset">
+       </div>
+       <div>
+        <input type = "text" name= "caja1" id="original" placeholder="Ingresa tu palabra de confianza">
+       </div>
+        <input type ="button" name= "button1" value ="Cifrar" id="cifrar"/>
+        <input type ="button" name= "button2" value ="Descifrar" id="descifrar"/>
+       <div>
         <input type = "text" name= "caja2" id="traduccion">
-      </div>
-      <input type ="reset" name= "button3" value ="Limpiar" id="limpiar"/>
-  </form>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+       </div>
+        <input type ="reset" name= "button3" value ="Limpiar" id="limpiar"/>
+      </form>
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
   </body>
 </html>
