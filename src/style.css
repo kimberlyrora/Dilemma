@@ -1,14 +1,30 @@
+body {
+    margin: 0;
+    }
+/* img{
+    background-size: contain;
+} */
+
+.bg-img {
+    background-image: url('imagen/fondo1.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.padre {
+       position: relative;
+       background-color: rgb(163, 212, 236);
+       height: 300px;
+       width: 350px;
+       top: 30%;
+
+       left: 34.5%;
+    }
+
 form {
      text-align:center;
      }
-#divContenedor {
-    
-    margin-top: 220px;
-    position: relative;
-    height:300px;
-    width: 400px;
-    background-color: rgb(202, 230, 247);
-}
+
 input[type=number] 
 {
   margin-top: 20px;
