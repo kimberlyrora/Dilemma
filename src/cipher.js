@@ -5,7 +5,10 @@ const encode = (offset,string) => {
   let cifrado_cadena='';
   for(let i = 0; i < string.length; i++) {
     numerAscii.push(string.charCodeAt(i));
-    cifrado.push(String.fromCharCode((numerAscii[i]-65+offset)%26+65));
+    if(numerAscii !=32 && numerAscii>=65 && numerAscii <=90){
+    cifrado.push(String.fromCharCode((numerAscii[i]-65+offset)%26+65))
+    };
+    else if(numerAscii=32 ||  numerAscii<=65 ||	numerAscii>=90){}
   }
   cifrado_cadena = cifrado.join('');
   return cifrado_cadena;

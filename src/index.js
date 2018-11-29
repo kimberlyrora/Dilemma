@@ -7,7 +7,7 @@ buttonCifrar.addEventListener("click", () => {
 });
 
 let buttonDescifrar=document.getElementById("descifrar");
-buttonDescifrar.addEventListener("click", function () {
+buttonDescifrar.addEventListener("click", () => {
   let offset = parseInt(document.getElementById("offset").value);
   let string =document.getElementById("original").value.toUpperCase();
   const descifrar =cipher.decode(offset,string);

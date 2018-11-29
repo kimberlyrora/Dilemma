@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width", user>
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, scale=1" />
+      <title>Caesar Cipher</title>
+       <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-<div class="contenedor">
-  <div class="bg-img">
-<header class="encabezado">
-  <img src="imagen/logo.png"/>
-</header>
-<section class="contenido">
-    <div class="padre">
-     <div id="root"></div>
-      <form id="formulario">
-       <div>
-        <input type = "number" name= "offset" id="offset" placeholder="Ingresa el offset">
-       </div>
-       <div>
-        <input type = "text" name= "caja1" id="original" placeholder="Ingresa tu palabra de confianza">
-       </div>
-        <input type ="button" name= "button1" value ="Cifrar" id="cifrar"/>
-        <input type ="button" name= "button2" value ="Descifrar" id="descifrar"/>
-       <div>
-        <input type = "text" name= "caja2" id="traduccion">
-       </div>
-        <input type ="reset" name= "button3" value ="Limpiar" id="limpiar"/>
-      </form>
+    <div class="contenedor">
+      <div class="bg-img">
+        <img src="imagen/logo.png"/>
+      
+        <main class="main">
+          <div id="root">
+            <form id="formulario">
+              <div>
+                <input type = "number" name= "offset" id="offset" placeholder="Ingresa el offset" />
+              </div>
+              <div>
+                <input type = "text" name= "caja1" id="original" placeholder="Ingresa tu palabra de confianza" />
+              </div>
+                <input type ="button" name= "button1" value ="Cifrar" id="cifrar"/>
+                <input type ="button" name= "button2" value ="Descifrar" id="descifrar"/>
+              <div>
+                <input type = "text" name= "caja2" id="traduccion" />
+              </div>
+                <input type ="reset" name= "button3" value ="Limpiar" id="limpiar"/>
+            </form>
+          </div>
+        </main>
+      </div>
    </div>
- </section>
-</div>
- <aside class="contenido-lateral"></aside>
- <footer class="pie-pagina"></footer>
-  </div>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
