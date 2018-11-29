@@ -1,14 +1,16 @@
 
 const encode = (offset,string) => {
   let cifrado=[];
-  let numerAscii=[];
   let cifrado_cadena='';
   for(let i = 0; i < string.length; i++) {
+    let numerAscii=[];
     numerAscii.push(string.charCodeAt(i));
     if(numerAscii !=32 && numerAscii>=65 && numerAscii <=90){
-    cifrado.push(String.fromCharCode((numerAscii[i]-65+offset)%26+65))
-    };
-    else if(numerAscii=32 ||  numerAscii<=65 ||	numerAscii>=90){}
+    cifrado.push(String.fromCharCode((numerAscii-65+offset)%26+65));
+    }
+    else if (numerAscii=32 || numerAscii>=122 || numerAscii<=65){
+      cifrado.push(string[i])
+    }
   }
   cifrado_cadena = cifrado.join('');
   return cifrado_cadena;
@@ -16,12 +18,22 @@ const encode = (offset,string) => {
 
 const decode = (offset, string) => {
   let descifrado =[];
-  let numerAsciii=[];
   let descifrado_cadena='';
  for(let i = 0; i < string.length; i++) {
+  let numerAsciii=[];
+  numerAsciii.push(string.charCodeAt(i));
+    if(numerAsciii !=32 && numerAsciii>=65 && numerAsciii <=90){
+    descifrado.push(String.fromCharCode((numerAsciii-90-offset)%26+90));
+    }
+    else if (numerAsciii=32 || numerAsciii>=122 || numerAsciii<=65){
+      descifrado.push(string[i])
+    }
+    /*
    numerAsciii.push(string.charCodeAt(i));
    descifrado.push(String.fromCharCode((numerAsciii[i]+65-offset)%26+65));
   }
+  */
+}
   descifrado_cadena=descifrado.join('');
   return descifrado_cadena;
 }
