@@ -4,28 +4,37 @@ body {
 /* img{
     background-size: contain;
 } */
-
+.contenedor{
+  width: 100%;
+  overflow: hidden;
+}
+.contenido{
+  width: 100%
+  box-sizing:border-box;
+}
+img {
+  display: block;
+  margin: auto;
+}
 .bg-img {
     background-image: url('imagen/fondo1.jpg');
     background-size: cover;
     height: 100vh;
-}
-
+  }
 .padre {
-       position: relative;
-       background-color: rgb(163, 212, 236);
-       height: 300px;
-       width: 350px;
-       top: 30%;
-
-       left: 34.5%;
+  position: relative;
+  background-color: rgb(163, 212, 236);
+  height: 300px;
+  width: 350px;
+  top: 18.1%;
+  left: 41%;
     }
 
 form {
      text-align:center;
      }
 
-input[type=number] 
+input[type=number]
 {
   margin-top: 20px;
   width: 250px;
@@ -35,9 +44,8 @@ input[type=number]
   font-size: 15px;
   border-width: 5px;
   border-radius: 10px
- outline: none;
 }
-input[type=text] 
+input[type=text]
 {
     width: 300px;
     height:50px;
@@ -46,8 +54,8 @@ input[type=text]
     border-width: 3px;
     border-radius: 10px
 }
-input[type=button] 
-{ 
+input[type=button]
+{
     width: 100px;
     height: 35px;
     margin-bottom: 10px;
@@ -56,9 +64,9 @@ input[type=button]
     margin-left: 20px;
     border-width: 4px;
     border-radius: 10px
-    
+
 }
-input[type=reset] 
+input[type=reset]
 {
     width: 100px;
     height: 35px;
