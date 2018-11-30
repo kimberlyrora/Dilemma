@@ -1,4 +1,5 @@
-body {
+
+/*body {
     outline: 1px solid blue;
 
 }
@@ -6,9 +7,9 @@ body {
 .contenedor {
     outline: 1px solid red;
 }
-
+*/
 .bg-img{
-  outline:  1px solid yellow;
+  /*outline:  1px solid yellow;*/
   background-image: url("imagen/fondo1.jpg");
     margin: 0;
     background-size: cover;
@@ -16,14 +17,14 @@ body {
 }
 
 img {
-   outline: 1px solid brown;
+  /* outline: 1px solid brown;*/
    display: block;
    margin: auto;
 }
 
 
 .main {
-    outline: 1px solid orangered;
+    /*outline: 1px solid orangered;*/
     position: relative;
     height: 300px;
     top: 50%;
@@ -32,7 +33,7 @@ img {
 }
 
 #root {
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
   height: 250px;
   background-color: rgb(16, 65, 172);
   margin-left: 27%;
@@ -41,7 +42,7 @@ img {
 }
 
 #formulario {
-    outline: 1px solid pink;
+    /*outline: 1px solid pink;*/
     height: 300px;
 }
 input[type=number]
