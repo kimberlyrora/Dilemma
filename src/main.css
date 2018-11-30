@@ -1,6 +1,6 @@
 body {
     outline: 1px solid blue;
-    
+
 }
 
 .contenedor {
@@ -34,7 +34,7 @@ img {
 #root {
   outline: 1px solid green;
   height: 250px;
-  background-color: blueviolet;
+  background-color: rgb(16, 65, 172);
   margin-left: 27%;
   margin-right: 27%;
 
@@ -90,12 +90,12 @@ input[type=reset]
 @media screen and (max-width:400px){
 .bg-img{
     background-image: none;
-    background-color: red;
+    background-color: rgb(16, 65, 172);
     background-position-x: center;
-    
+
 }
 input[type=text]{
-    width: 250px;
+    width: 100px;
 }
 input[type=number]{
     width: 150px;
@@ -109,17 +109,38 @@ input[type=number]{
 @media screen and (max-width:600px){
     .bg-img{
         background-image: none;
-        background-color: red;
+        background-color: rgb(16, 65, 172);
         background-position-x: center;
-        
+
     }
     input[type=text]{
         width: 240px;
     }
     input[type=number]{
-        width: 180px;
+        width: 150px;
     }
     #root{
         margin-left: 8%;
         margin-right: 8%;
+        height: 283px;
     }
+  }
+
+@media screen and (max-width:767px){
+    .bg-img{
+            background-image: none;
+            background-color: rgb(16, 65, 172);
+            background-position-x: center;
+
+    }
+    input[type=text]{
+            width: 239px;
+    }
+    input[type=number]{
+            width: 180px;
+    }
+    #root{
+            margin-left: 10%;
+            margin-right: 10%;
+    }
+}
