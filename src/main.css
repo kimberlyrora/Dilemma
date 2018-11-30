@@ -90,7 +90,7 @@ input[type=reset]
 @media screen and (max-width:400px){
 .bg-img{
     background-image: none;
-    background-color: rgb(16, 65, 172);
+    background-color: rgb(13, 150, 70);
     background-position-x: center;
 
 }
@@ -109,7 +109,7 @@ input[type=number]{
 @media screen and (max-width:600px){
     .bg-img{
         background-image: none;
-        background-color: rgb(16, 65, 172);
+        background-color: rgb(13, 150, 70);
         background-position-x: center;
 
     }
@@ -129,7 +129,7 @@ input[type=number]{
 @media screen and (max-width:767px){
     .bg-img{
             background-image: none;
-            background-color: rgb(16, 65, 172);
+            background-color: rgb(13, 150, 70);
             background-position-x: center;
 
     }
