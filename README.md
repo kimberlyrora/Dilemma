@@ -28,7 +28,7 @@ El entendimiento del producto de manera rapida y automatica, la veracidad de el 
 
 Todas las personas que tengan una afiliacion a un banco.
 
-##Problemas que se solucionan
+## Problemas que se solucionan
 
 - Evitar el transporte de la tarjeta.
 - Reducir la produccion de tarjetas.
@@ -39,7 +39,7 @@ Todas las personas que tengan una afiliacion a un banco.
 ## El uso del  producto
 Se puede acceder a este producto via web desde cualquier dispositivo tecnologico, lo que evitaria el descargar una app y que conllevaria a la utilizacion del espacio de memoria en el celular.
 
-##Como usarlo
+## Como usarlo
 Ingresas tu palabra de confianza en la caja que se indica, eliges el offset tambien en la caja indicada y eliges el boton segun los necesites.
 La palabra de confianza la indica el usuario al momento de su afiliacion al banco o cuando decida empezar el uso de este producto, solo tendria que de manera inicial seguyir el mismo proceso que cuando obtiene su tarjeta por primera vez.
 Se le entrego su tarjeta con una clave del banco y tiene que cambiarla, pero este caso lo haria por unica vez, ya que posteriormente usara el producto.
