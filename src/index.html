@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, scale=1" />
-      <title>Caesar Cipher</title>
-       <link rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <div class="contenedor">
-      <div class="bg-img">
-        <img src="imagen/logo.png"/>
-      
-        <main class="main">
-          <div id="root">
-            <form id="formulario">
-              <div>
-                <input type = "number" name= "offset" id="offset" placeholder="Ingresa el offset" />
-              </div>
-              <div>
-                <input type = "text" name= "caja1" id="original" placeholder="Ingresa tu palabra de confianza" />
-              </div>
-                <input type ="button" name= "button1" value ="Cifrar" id="cifrar"/>
-                <input type ="button" name= "button2" value ="Descifrar" id="descifrar"/>
-              <div>
-                <input type = "text" name= "caja2" id="traduccion" />
-              </div>
-                <input type ="reset" name= "button3" value ="Limpiar" id="limpiar"/>
-            </form>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, scale=1" />
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:b" rel="stylesheet">
+</head>
+
+<body>
+  <div class="contenedor">
+    <div class="bg-img hey">
+      <header class = "name">DILEMMA</header>
+      <div class="root">
+        <form id="formulario">
+          <div class="offset font">
+            <input type="number" name="offset" id="offset" placeholder="Ingresa el offset" step="1"></input>
           </div>
-        </main>
+          <div class="font">
+            <textarea type="text" name="caja1" id="original" placeholder="Ingresa tu dilemma"></textarea>
+          </div>
+          <button type="button" class="butto" name="button1"  id="cifrar">DESCIFRAR</button>
+          <button type="button" class="butto"  name="button2"  id="descifrar">CIFRAR</button>
+          <div>
+            <textarea type="text" name="caja2" id="traduccion" placeholder="Dilemma procesado"></textarea>
+          </div>
+          <button type="reset"  class="butto" name="button3" id="limpiar">LIMPIAR</button>
+        </form>
       </div>
-   </div>
+    </div>
+  </div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
