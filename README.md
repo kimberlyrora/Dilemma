@@ -1,5 +1,5 @@
 
-# Nuevo Banco del Perú (BNP)
+# DILEMMA
 
 
 La condicion primordial sobre la decisión de la temática del proyecto, esta basado en la posibilidad de su uso masivo y necesario, después de evaluar muchas opciones, llegué ha decidirme por la creacion de un sistema creador de claves de seguridad en el area financiera.
