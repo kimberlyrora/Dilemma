@@ -56,11 +56,11 @@ textarea{
   font-family: 'Roboto', sans-serif;
 }
 button{
-    width: 12vh;
+    width: 14vh;
     height: 35px;
     border-width: 4px;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 2.9vh;
     margin-bottom: 3vh;
     margin-right: 1.5vh;
@@ -69,9 +69,6 @@ button{
     background-color: hsl(165, 59%, 54%);
     border-color:  hsl(165, 59%, 54%);
     border-style: solid;
-    text-shadow:
-    -0.5px -0.5px 0 #000, 
-    0.5px -.5px 0 #000, 
-    -.5px .5px 0 #000;
+    font-weight: 900
 }
 
